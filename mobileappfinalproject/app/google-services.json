@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "678841436896",
+    "firebase_url": "https://mentalhealthmobileapp-default-rtdb.firebaseio.com",
+    "project_id": "mentalhealthmobileapp",
+    "storage_bucket": "mentalhealthmobileapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678841436896:android:d72a0150c904dddcc15e85",
+        "android_client_info": {
+          "package_name": "com.example.finalmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcguBZXIwEitwvb3uQUfcfk_tqrYWg-Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678841436896:android:58cb0eb1588681c2c15e85",
+        "android_client_info": {
+          "package_name": "com.example.mobileappfinalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcguBZXIwEitwvb3uQUfcfk_tqrYWg-Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678841436896:android:56d72409d47a4ac8c15e85",
+        "android_client_info": {
+          "package_name": "mentalhealth1234.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcguBZXIwEitwvb3uQUfcfk_tqrYWg-Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

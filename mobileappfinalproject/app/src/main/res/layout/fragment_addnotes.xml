@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:background="#4B3FB5"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_addnotes"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:background="#FFFFFF"
+    android:layout_height="550dp"
+    android:layout_width="380dp"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp"
+    android:layout_gravity="center">
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"
+    android:textSize="35dp"
+    android:text="Add new note"/>
+
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="25dp"
+    android:id="@+id/etTitle"
+    android:hint="Note Title"/>
+
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="25dp"
+    android:id="@+id/etNewnote"
+    android:hint="Today, I.."/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textSize="30dp"
+    android:text="upload photo"
+    android:textAlignment="center"/>
+
+<ImageView
+    android:layout_height="200dp"
+    android:layout_width="200dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/uploadimg"
+    android:scaleType="fitXY"/>
+
+<EditText
+    android:layout_height="60dp"
+    android:layout_width="match_parent"
+    android:id="@+id/etphotoTitle"
+    android:hint="catch the memory"
+    android:textColor="#1F1285"
+    android:gravity="start|center_vertical"
+    android:padding="16dp"/>
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:text="Add"
+    android:id="@+id/btnAdd"
+    android:textColor="#E7DCFB"
+    android:backgroundTint="#4B3FB5"/>
+
+</LinearLayout>
+
+</LinearLayout>

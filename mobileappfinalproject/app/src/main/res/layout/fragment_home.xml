@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_home"
+    android:background="@drawable/purple3d"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Daily Quote"
+    android:id="@+id/tvDailyQuote"
+    android:textColor="#9595D7"
+    android:textSize="25dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"/>
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="#9595D7"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:textAlignment="center"
+        android:text=" ``Stop giving other people the
+power to control your life. If you don't take
+control of yourself and your own life someone
+else is bound to try.``"
+        android:id="@+id/tvQuote"
+        android:textColor="#1C1142"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    </LinearLayout>
+    <!--Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGetQuote"
+        android:text="ok"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/-->
+</LinearLayout>

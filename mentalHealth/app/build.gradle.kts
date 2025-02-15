@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.mentalhealth"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.mentalhealth"
@@ -37,7 +37,13 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation ("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation 'com.google.android.material:material:1.9.0'
     testImplementation(libs.junit)
+    //implementation 'com.android.support:support-compat:25.1.1'
+
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+
 }

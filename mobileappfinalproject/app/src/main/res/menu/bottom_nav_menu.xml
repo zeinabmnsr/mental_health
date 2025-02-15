@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:title="Home"
+    android:id="@+id/home"
+    android:icon="@drawable/homemobile2"/>
+
+<item
+    android:title="Add Note"
+    android:id="@+id/addNote"
+    android:icon="@drawable/todolistmobile2"/>
+
+<item android:title="Mood Check in"
+    android:id="@+id/mood"
+    android:icon="@drawable/cloudmobile2"/>
+
+<item
+    android:title="Music"
+    android:id="@+id/account"
+    android:icon="@drawable/musicmobile2"/>
+
+</menu>

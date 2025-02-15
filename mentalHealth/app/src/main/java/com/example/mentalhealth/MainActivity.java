@@ -36,10 +36,11 @@ private Button start;
                 startActivity(i);
             }
         });
-        //create a new database named productsDB
-        //myDb hye object mn class SQLdatabase
-        //myDb = openOrCreateDatabase("productsDb", MODE_PRIVATE, null);
-        //myDb.execSQL("CREATE TABLE IF NOT EXISTS products(id VARCHAR, name VARCHAR," +
-          //      " price Varchar, quantity VARCHAR)");
+        /** create a new database named productsDB
+        myDb hye object mn class SQLdatabase
+        myDb = openOrCreateDatabase("productsDb", MODE_PRIVATE, null);
+        myDb.execSQL("CREATE TABLE IF NOT EXISTS products(id VARCHAR, name VARCHAR," +
+                " price Varchar, quantity VARCHAR)");
+        return false; */
     }
 }

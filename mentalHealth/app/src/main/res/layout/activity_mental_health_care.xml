@@ -9,7 +9,7 @@
     android:orientation="vertical"
     tools:context=".MentalHealthCare"
     android:background="@drawable/purplebg2">
-<LinearLayout
+<!--LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
@@ -103,8 +103,32 @@
         android:id="@+id/Stop"
         android:textSize="25dp"
         android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"/>
+        android:layout_marginRight="12dp"/-->
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seemore"
+        android:layout_marginTop="30dp"
+        android:text="about"
+        android:textColor="#731212"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/etName"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:text="home"
+        android:textColor="#731212"
+        android:textSize="25dp"
+        />
 
 
 </LinearLayout>
